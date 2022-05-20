@@ -1,0 +1,786 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "gasTest",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603c80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a71f4eb914602d575b600080fd5b00fea164736f6c634300080d000a",
+    "sourceMap": "128:124:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063a71f4eb914602d575b600080fd5b00fea164736f6c634300080d000a",
+    "sourceMap": "128:124:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;153:97;",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "/Users/offshore/kit/gas-lab/src/test/GasTest.t.sol",
+    "exportedSymbols": {
+      "DSTest": [
+        9744
+      ],
+      "GasTest": [
+        9814
+      ],
+      "Optimized": [
+        9754
+      ],
+      "Unoptimized": [
+        9759
+      ],
+      "console": [
+        8063
+      ]
+    },
+    "id": 9815,
+    "license": "UNLICENSED",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 9746,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".13"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:25:2"
+      },
+      {
+        "absolutePath": "/Users/offshore/kit/gas-lab/lib/test.sol",
+        "file": "../../lib/test.sol",
+        "id": 9747,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 9815,
+        "sourceUnit": 9745,
+        "src": "66:28:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/Users/offshore/kit/gas-lab/lib/Console.sol",
+        "file": "../../lib/Console.sol",
+        "id": 9748,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 9815,
+        "sourceUnit": 8064,
+        "src": "95:31:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Optimized",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 9754,
+        "linearizedBaseContracts": [
+          9754
+        ],
+        "name": "Optimized",
+        "nameLocation": "137:9:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 9752,
+              "nodeType": "Block",
+              "src": "184:66:2",
+              "statements": [
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "203:41:2",
+                    "statements": [
+                      {
+                        "nodeType": "YulVariableDeclaration",
+                        "src": "217:17:2",
+                        "value": {
+                          "kind": "number",
+                          "nodeType": "YulLiteral",
+                          "src": "230:4:2",
+                          "type": "",
+                          "value": "0x00"
+                        },
+                        "variables": [
+                          {
+                            "name": "thing",
+                            "nodeType": "YulTypedName",
+                            "src": "221:5:2",
+                            "type": ""
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "evmVersion": "london",
+                  "externalReferences": [],
+                  "id": 9751,
+                  "nodeType": "InlineAssembly",
+                  "src": "194:50:2"
+                }
+              ]
+            },
+            "functionSelector": "a71f4eb9",
+            "id": 9753,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "gasTest",
+            "nameLocation": "162:7:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9749,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "169:2:2"
+            },
+            "returnParameters": {
+              "id": 9750,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "184:0:2"
+            },
+            "scope": 9754,
+            "src": "153:97:2",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 9815,
+        "src": "128:124:2",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Unoptimized",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 9759,
+        "linearizedBaseContracts": [
+          9759
+        ],
+        "name": "Unoptimized",
+        "nameLocation": "263:11:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 9757,
+              "nodeType": "Block",
+              "src": "313:2:2",
+              "statements": []
+            },
+            "functionSelector": "49f8da52",
+            "id": 9758,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "gasTest1",
+            "nameLocation": "290:8:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9755,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "298:2:2"
+            },
+            "returnParameters": {
+              "id": 9756,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "313:0:2"
+            },
+            "scope": 9759,
+            "src": "281:34:2",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 9815,
+        "src": "254:63:2",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 9760,
+              "name": "DSTest",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 9744,
+              "src": "339:6:2"
+            },
+            "id": 9761,
+            "nodeType": "InheritanceSpecifier",
+            "src": "339:6:2"
+          }
+        ],
+        "canonicalName": "GasTest",
+        "contractDependencies": [
+          9754,
+          9759
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 9814,
+        "linearizedBaseContracts": [
+          9814,
+          9744
+        ],
+        "name": "GasTest",
+        "nameLocation": "328:7:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 9764,
+            "mutability": "mutable",
+            "name": "unoptimized",
+            "nameLocation": "364:11:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 9814,
+            "src": "352:23:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Unoptimized_$9759",
+              "typeString": "contract Unoptimized"
+            },
+            "typeName": {
+              "id": 9763,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 9762,
+                "name": "Unoptimized",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 9759,
+                "src": "352:11:2"
+              },
+              "referencedDeclaration": 9759,
+              "src": "352:11:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                "typeString": "contract Unoptimized"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 9767,
+            "mutability": "mutable",
+            "name": "optimized",
+            "nameLocation": "391:9:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 9814,
+            "src": "381:19:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_Optimized_$9754",
+              "typeString": "contract Optimized"
+            },
+            "typeName": {
+              "id": 9766,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 9765,
+                "name": "Optimized",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 9754,
+                "src": "381:9:2"
+              },
+              "referencedDeclaration": 9754,
+              "src": "381:9:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Optimized_$9754",
+                "typeString": "contract Optimized"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 9784,
+              "nodeType": "Block",
+              "src": "431:85:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 9775,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 9770,
+                      "name": "unoptimized",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 9764,
+                      "src": "441:11:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                        "typeString": "contract Unoptimized"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 9773,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "455:15:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Unoptimized_$9759_$",
+                          "typeString": "function () returns (contract Unoptimized)"
+                        },
+                        "typeName": {
+                          "id": 9772,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 9771,
+                            "name": "Unoptimized",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 9759,
+                            "src": "459:11:2"
+                          },
+                          "referencedDeclaration": 9759,
+                          "src": "459:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                            "typeString": "contract Unoptimized"
+                          }
+                        }
+                      },
+                      "id": 9774,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "455:17:2",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                        "typeString": "contract Unoptimized"
+                      }
+                    },
+                    "src": "441:31:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                      "typeString": "contract Unoptimized"
+                    }
+                  },
+                  "id": 9776,
+                  "nodeType": "ExpressionStatement",
+                  "src": "441:31:2"
+                },
+                {
+                  "expression": {
+                    "id": 9782,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 9777,
+                      "name": "optimized",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 9767,
+                      "src": "482:9:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Optimized_$9754",
+                        "typeString": "contract Optimized"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [],
+                      "expression": {
+                        "argumentTypes": [],
+                        "id": 9780,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "494:13:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_Optimized_$9754_$",
+                          "typeString": "function () returns (contract Optimized)"
+                        },
+                        "typeName": {
+                          "id": 9779,
+                          "nodeType": "UserDefinedTypeName",
+                          "pathNode": {
+                            "id": 9778,
+                            "name": "Optimized",
+                            "nodeType": "IdentifierPath",
+                            "referencedDeclaration": 9754,
+                            "src": "498:9:2"
+                          },
+                          "referencedDeclaration": 9754,
+                          "src": "498:9:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_Optimized_$9754",
+                            "typeString": "contract Optimized"
+                          }
+                        }
+                      },
+                      "id": 9781,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "494:15:2",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_Optimized_$9754",
+                        "typeString": "contract Optimized"
+                      }
+                    },
+                    "src": "482:27:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_Optimized_$9754",
+                      "typeString": "contract Optimized"
+                    }
+                  },
+                  "id": 9783,
+                  "nodeType": "ExpressionStatement",
+                  "src": "482:27:2"
+                }
+              ]
+            },
+            "functionSelector": "0a9254e4",
+            "id": 9785,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setUp",
+            "nameLocation": "416:5:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9768,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "421:2:2"
+            },
+            "returnParameters": {
+              "id": 9769,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "431:0:2"
+            },
+            "scope": 9814,
+            "src": "407:109:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 9798,
+              "nodeType": "Block",
+              "src": "557:68:2",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 9788,
+                        "name": "unoptimized",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9764,
+                        "src": "567:11:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                          "typeString": "contract Unoptimized"
+                        }
+                      },
+                      "id": 9790,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "gasTest1",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9758,
+                      "src": "567:20:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                        "typeString": "function () pure external"
+                      }
+                    },
+                    "id": 9791,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "567:22:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 9792,
+                  "nodeType": "ExpressionStatement",
+                  "src": "567:22:2"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 9793,
+                        "name": "optimized",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9767,
+                        "src": "599:9:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Optimized_$9754",
+                          "typeString": "contract Optimized"
+                        }
+                      },
+                      "id": 9795,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "gasTest",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9753,
+                      "src": "599:17:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                        "typeString": "function () pure external"
+                      }
+                    },
+                    "id": 9796,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "599:19:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 9797,
+                  "nodeType": "ExpressionStatement",
+                  "src": "599:19:2"
+                }
+              ]
+            },
+            "functionSelector": "e392c102",
+            "id": 9799,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testGasCost",
+            "nameLocation": "531:11:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9786,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "542:2:2"
+            },
+            "returnParameters": {
+              "id": 9787,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "557:0:2"
+            },
+            "scope": 9814,
+            "src": "522:103:2",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 9812,
+              "nodeType": "Block",
+              "src": "667:68:2",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 9802,
+                        "name": "unoptimized",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9764,
+                        "src": "677:11:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Unoptimized_$9759",
+                          "typeString": "contract Unoptimized"
+                        }
+                      },
+                      "id": 9804,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "gasTest1",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9758,
+                      "src": "677:20:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                        "typeString": "function () pure external"
+                      }
+                    },
+                    "id": 9805,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "677:22:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 9806,
+                  "nodeType": "ExpressionStatement",
+                  "src": "677:22:2"
+                },
+                {
+                  "expression": {
+                    "arguments": [],
+                    "expression": {
+                      "argumentTypes": [],
+                      "expression": {
+                        "id": 9807,
+                        "name": "optimized",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 9767,
+                        "src": "709:9:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Optimized_$9754",
+                          "typeString": "contract Optimized"
+                        }
+                      },
+                      "id": 9809,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "gasTest",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 9753,
+                      "src": "709:17:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_pure$__$returns$__$",
+                        "typeString": "function () pure external"
+                      }
+                    },
+                    "id": 9810,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "709:19:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 9811,
+                  "nodeType": "ExpressionStatement",
+                  "src": "709:19:2"
+                }
+              ]
+            },
+            "functionSelector": "f399d2c1",
+            "id": 9813,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testGasCost2",
+            "nameLocation": "640:12:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 9800,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "652:2:2"
+            },
+            "returnParameters": {
+              "id": 9801,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "667:0:2"
+            },
+            "scope": 9814,
+            "src": "631:104:2",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 9815,
+        "src": "319:418:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:699:2"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "gasTest",
+      "outputs": [],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50606580601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a71f4eb914602d575b600080fd5b00fea2646970667358221220471e99237aa5918dd81f79b8297cfab8f4f528c93c554a46ca6f928e830742f264736f6c634300080d0033",
+    "sourceMap": "66:124:2:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063a71f4eb914602d575b600080fd5b00fea2646970667358221220471e99237aa5918dd81f79b8297cfab8f4f528c93c554a46ca6f928e830742f264736f6c634300080d0033",
+    "sourceMap": "66:124:2:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;91:97;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "gasTest()": "a71f4eb9"
+  },
+  "ast": {
+    "absolutePath": "/Users/offshore/kit/gas-lab/src/Contract.sol",
+    "id": 9759,
+    "exportedSymbols": {
+      "Optimized": [
+        9752
+      ],
+      "Unoptimized": [
+        9758
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:280:2",
+    "nodes": [
+      {
+        "id": 9746,
+        "nodeType": "PragmaDirective",
+        "src": "39:25:2",
+        "literals": [
+          "solidity",
+          ">=",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 9752,
+        "nodeType": "ContractDefinition",
+        "src": "66:124:2",
+        "nodes": [
+          {
+            "id": 9751,
+            "nodeType": "FunctionDefinition",
+            "src": "91:97:2",
+            "body": {
+              "id": 9750,
+              "nodeType": "Block",
+              "src": "122:66:2",
+              "statements": [
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "141:41:2",
+                    "statements": [
+                      {
+                        "nodeType": "YulVariableDeclaration",
+                        "src": "155:17:2",
+                        "value": {
+                          "kind": "number",
+                          "nodeType": "YulLiteral",
+                          "src": "168:4:2",
+                          "type": "",
+                          "value": "0x00"
+                        },
+                        "variables": [
+                          {
+                            "name": "thing",
+                            "nodeType": "YulTypedName",
+                            "src": "159:5:2",
+                            "type": ""
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "evmVersion": "london",
+                  "externalReferences": [],
+                  "id": 9749,
+                  "nodeType": "InlineAssembly",
+                  "src": "132:50:2"
+                }
+              ]
+            },
+            "functionSelector": "a71f4eb9",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "gasTest",
+            "nameLocation": "100:7:2",
+            "parameters": {
+              "id": 9747,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:2"
+            },
+            "returnParameters": {
+              "id": 9748,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "122:0:2"
+            },
+            "scope": 9752,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Optimized",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          9752
+        ],
+        "name": "Optimized",
+        "nameLocation": "75:9:2",
+        "scope": 9759,
+        "usedErrors": []
+      },
+      {
+        "id": 9758,
+        "nodeType": "ContractDefinition",
+        "src": "192:126:2",
+        "nodes": [
+          {
+            "id": 9757,
+            "nodeType": "FunctionDefinition",
+            "src": "219:97:2",
+            "body": {
+              "id": 9756,
+              "nodeType": "Block",
+              "src": "250:66:2",
+              "statements": [
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "269:41:2",
+                    "statements": [
+                      {
+                        "nodeType": "YulVariableDeclaration",
+                        "src": "283:17:2",
+                        "value": {
+                          "kind": "number",
+                          "nodeType": "YulLiteral",
+                          "src": "296:4:2",
+                          "type": "",
+                          "value": "0x00"
+                        },
+                        "variables": [
+                          {
+                            "name": "thing",
+                            "nodeType": "YulTypedName",
+                            "src": "287:5:2",
+                            "type": ""
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "evmVersion": "london",
+                  "externalReferences": [],
+                  "id": 9755,
+                  "nodeType": "InlineAssembly",
+                  "src": "260:50:2"
+                }
+              ]
+            },
+            "functionSelector": "a71f4eb9",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "gasTest",
+            "nameLocation": "228:7:2",
+            "parameters": {
+              "id": 9753,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "235:2:2"
+            },
+            "returnParameters": {
+              "id": 9754,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "250:0:2"
+            },
+            "scope": 9758,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Unoptimized",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          9758
+        ],
+        "name": "Unoptimized",
+        "nameLocation": "201:11:2",
+        "scope": 9759,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 2
+}
