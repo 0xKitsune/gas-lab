@@ -14,13 +14,14 @@ contract Sample0 is SharedSetup {
 //Optimized sample
 contract Sample1 is SharedSetup {
     function measureGas() external pure {
-        uint256 i;
-        ++i;
+        assembly {
+            let thing := add(0x00, 0x01)
+        }
     }
 }
 
 // Customize console output
 abstract contract Labels {
-    // string label0 = "Testing Sample0";
-    // string label1 = "Testing Sample1";
+    string label0 = "";
+    string label1 = "";
 }
