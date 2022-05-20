@@ -3,7 +3,6 @@ pragma solidity >=0.8.13;
 
 import "../../lib/test.sol";
 import "../../lib/Console.sol";
-import "../Contract.sol";
 
 contract GasTest is DSTest {
     Optimized optimized;
@@ -14,8 +13,16 @@ contract GasTest is DSTest {
         optimized = new Optimized();
     }
 
-    function testGasCost() public view {
+    function testGasCost() public {
         unoptimized.gasTest();
         optimized.gasTest();
     }
+}
+
+contract Optimized {
+    function gasTest() external {}
+}
+
+contract Unoptimized {
+    function gasTest() external {}
 }
