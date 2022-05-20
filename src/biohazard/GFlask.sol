@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Unlicense
-
+pragma solidity >=0.8.13;
 /*
 
     |////////////////////////////|
@@ -10,7 +10,7 @@
 
 */
 
-import "ds-test/test.sol";
+import "../../lib/ds-test/src/test.sol";
 
 /// @title GFlask
 /// @author Zero Ekkusu
